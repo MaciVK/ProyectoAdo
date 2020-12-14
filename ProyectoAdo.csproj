@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -64,6 +65,36 @@
     <Compile Include="Form03EliminarEnfermo.Designer.cs">
       <DependentUpon>Form03EliminarEnfermo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form04ModificarSalas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form04ModificarSalas.Designer.cs">
+      <DependentUpon>Form04ModificarSalas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form05StoredProcedures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form05StoredProcedures.Designer.cs">
+      <DependentUpon>Form05StoredProcedures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form06MensajesServidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form06MensajesServidor.Designer.cs">
+      <DependentUpon>Form06MensajesServidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form07ParametrosSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form07ParametrosSalida.Designer.cs">
+      <DependentUpon>Form07ParametrosSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form08HospitalesPlantilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form08HospitalesPlantilla.Designer.cs">
+      <DependentUpon>Form08HospitalesPlantilla.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +111,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form03EliminarEnfermo.resx">
       <DependentUpon>Form03EliminarEnfermo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form04ModificarSalas.resx">
+      <DependentUpon>Form04ModificarSalas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form05StoredProcedures.resx">
+      <DependentUpon>Form05StoredProcedures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form06MensajesServidor.resx">
+      <DependentUpon>Form06MensajesServidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form07ParametrosSalida.resx">
+      <DependentUpon>Form07ParametrosSalida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form08HospitalesPlantilla.resx">
+      <DependentUpon>Form08HospitalesPlantilla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
